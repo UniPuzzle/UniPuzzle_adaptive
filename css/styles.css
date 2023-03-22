@@ -123,7 +123,7 @@ img {
 }
 
 .main {
-  padding-top: 29px;
+  padding-top: 40px;
 }
 
 .title {
@@ -450,7 +450,9 @@ img {
 }
 
 /* ===============Header============== */
-
+.logo {
+  display: block;
+}
 .header__logo {
   width: 233px;
 
@@ -466,12 +468,18 @@ img {
 }
 
 .navigation {
-  min-width: 390px;
   background-color: var(--bcg-color);
+}
+@media screen and (max-width: 479.98px) {
+  .navigation {
+    min-width: 390px;
+  }
 }
 @media screen and (min-width: 480px) {
   .navigation {
-    min-width: 1440px;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: transparent;
   }
 }
@@ -611,7 +619,7 @@ img {
 
 .main__title {
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 40px;
 }
 
 .bcg {
@@ -620,6 +628,11 @@ img {
 @media screen and (max-width: 480px) {
   .bcg {
     border-radius: 12px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .bcg {
+    min-width: 1440px;
   }
 }
 
@@ -787,7 +800,7 @@ img {
 /* ============section PUZZLE CLASSICS=============  */
 
 .section-classics {
-  padding-top: 80px;
+  padding-top: 100px;
 }
 
 #btn-classics {
@@ -921,12 +934,12 @@ img {
 /* =============section CESS PUZZLES============= */
 
 .section-chess {
-  padding-top: 80px;
+  padding-top: 90px;
 }
 
 @media screen and (min-width: 480px) {
   .section-chess {
-    padding-top: 40px;
+    padding-top: 100px;
   }
 }
 
@@ -973,7 +986,12 @@ img {
 }
 
 .coin-section {
-  padding-top: 40px;
+  padding-top: 90px;
+}
+@media screen and (min-width: 480px) {
+  .coin-section {
+    padding-top: 100px;
+  }
 }
 
 #btn-coin {
@@ -1298,11 +1316,11 @@ img {
 }
 
 .logic-section {
-  padding-top: 80px;
+  padding-top: 90px;
 }
 @media screen and (min-width: 480px) {
   .logic-section {
-    padding-top: 40px;
+    padding-top: 100px;
   }
 }
 
