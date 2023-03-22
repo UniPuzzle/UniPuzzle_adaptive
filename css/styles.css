@@ -251,14 +251,13 @@ img {
 
 .aside__title {
   font-weight: 800;
-  font-size: 20px;
+  font-size: 21px;
   line-height: 1.1;
 
   text-transform: uppercase;
 }
 @media screen and (min-width: 480px) {
   .aside__title {
-    font-size: 21px;
     line-height: 1.05;
   }
 }
@@ -1176,7 +1175,7 @@ img {
 
 .coin-title {
   font-weight: 800;
-  font-size: 20px;
+  font-size: 21px;
   line-height: 1.1;
   width: 165px;
   margin-bottom: 15px;
