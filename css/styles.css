@@ -905,7 +905,7 @@ img {
   position: absolute;
   z-index: 2;
   top: -40px;
-  left: 33px;
+  left: 35px;
   width: 335px;
   height: 42px;
   display: flex;
@@ -914,6 +914,9 @@ img {
   border-radius: 4px;
   background-color: var(--item-block-bgc);
   transform: skewX(-10deg);
+}
+.chess-section-item__block {
+  left: 34px;
 }
 
 @media screen and (min-width: 479.98px) {
