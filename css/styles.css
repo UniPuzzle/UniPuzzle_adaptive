@@ -765,12 +765,12 @@ img {
 }
 
 .aside__title--position {
-  padding: 22px 36px 14px 46px;
+  padding: 22px 25px 14px 46px;
 }
 
 @media screen and (min-width: 480px) {
   .aside__title--position {
-    padding: 25px 127px 20px 53px;
+    padding: 25px 25px 20px 53px;
   }
 }
 
@@ -779,7 +779,7 @@ img {
 }
 @media screen and (min-width: 480px) {
   .aside-master__title {
-    padding: 20px 127px 20px 35px;
+    padding: 20px 35px 20px 35px;
   }
 }
 
