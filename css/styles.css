@@ -315,6 +315,21 @@ img {
   transform: skewX(10deg);
 }
 
+/* ==========itr_coin_wrap============= */
+.itr_coin_wrap {
+  position: relative;
+  /* padding-left: 10px; */
+  border-radius: 15px 15px 0 0;
+  background-color: #1a385e;
+  /* padding: 10px; */
+  /* margin: 8% auto; */
+  width: 100%;
+
+  height: 287px;
+  /* overflow: hidden; */
+}
+/* ======================================= */
+
 /* ==============dropdown============= */
 
 .wrapper-drop {
