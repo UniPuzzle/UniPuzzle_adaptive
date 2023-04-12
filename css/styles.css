@@ -328,6 +328,97 @@ img {
   height: 287px;
   /* overflow: hidden; */
 }
+
+.itr_coin_elem {
+  position: absolute;
+  display: inline-block;
+  /* border-radius: 15%; */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  /* background-color: rgb(255, 255, 255, 0); */
+}
+
+#itr_coin_1 {
+  left: 26.09985614931%;
+  top: 16.50014385069%;
+}
+@media screen and (min-width: 480px) {
+  #itr_coin_1 {
+    left: 29.09985614931%;
+    top: 16.50014385069%;
+  }
+}
+#itr_coin_2 {
+  left: 45.09985614931%;
+  top: 16.50014385069%;
+}
+@media screen and (min-width: 480px) {
+  #itr_coin_2 {
+    left: 45.09985614931%;
+    top: 16.50014385069%;
+  }
+}
+#itr_coin_3 {
+  left: 64.09985614931%;
+  top: 16.50014385069%;
+}
+@media screen and (min-width: 480px) {
+  #itr_coin_3 {
+    left: 61.09985614931%;
+    top: 16.50014385069%;
+  }
+}
+#itr_coin_4 {
+  left: 64.09985614931%;
+  top: 40.50014385069%;
+}
+@media screen and (min-width: 480px) {
+  #itr_coin_4 {
+    left: 61.09985614931%;
+    top: 40.50014385069%;
+  }
+}
+#itr_coin_5 {
+  left: 64.09985614931%;
+  top: 64.50014385069%;
+}
+@media screen and (min-width: 480px) {
+  #itr_coin_5 {
+    left: 61.09985614931%;
+    top: 64.50014385069%;
+  }
+}
+#itr_coin_6 {
+  left: 45.09985614931%;
+  top: 64.50014385069%;
+}
+@media screen and (min-width: 480px) {
+  #itr_coin_6 {
+    left: 45.09985614931%;
+    top: 64.50014385069%;
+  }
+}
+#itr_coin_7 {
+  left: 26.09985614931%;
+  top: 64.50014385069%;
+}
+@media screen and (min-width: 480px) {
+  #itr_coin_7 {
+    left: 29.09985614931%;
+    top: 64.50014385069%;
+  }
+}
+#itr_coin_8 {
+  left: 26.09985614931%;
+  top: 40.50014385069%;
+}
+@media screen and (min-width: 480px) {
+  #itr_coin_8 {
+    left: 29.09985614931%;
+    top: 40.50014385069%;
+  }
+}
 /* ======================================= */
 
 /* ==============dropdown============= */
