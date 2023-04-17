@@ -337,6 +337,14 @@ img {
   position: relative;
 }
 
+.itr_coin_wrap-desktop {
+  height: 287px;
+}
+
+.coin-img-wrap-mobile {
+  width: 180px;
+}
+
 .itr_coin_elem {
   /* border-radius: 15%; */
   /* position: absolute;
@@ -1247,8 +1255,8 @@ img {
 
 .coin__date {
   position: absolute;
-  margin-left: 228px;
-  transform: translate(0, -100%);
+  margin-left: 229px;
+  transform: translate(0, -90%);
 }
 /* =========coin-mobile=========== */
 .coin-mobile {
@@ -1381,6 +1389,9 @@ img {
   justify-content: center;
 }
 
+.coin-img-wrap-mobile {
+}
+
 .flex-item {
   margin-left: 70px;
 }
@@ -1408,7 +1419,7 @@ img {
   border-radius: 4px 0px 0px 4px;
 }
 
-.coin-date {
+.coin-date-mobile {
   position: absolute;
   transform: translate(0, -100%);
   margin-left: 217px;
